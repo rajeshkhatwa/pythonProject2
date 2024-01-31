@@ -21,7 +21,7 @@ import chainlit as cl
 
 @cl.on_chat_start
 async def on_chat_start():
-    file_path = "/Users/I311450/Library/CloudStorage/OneDrive-SAPSE/Desktop/Tasks/api_key.txt"
+    file_path = "Tasks/api_key.txt"
     file_data = open(file_path, "r")
     api_key = file_data.readline()
     print("Inside On Chat Start")
