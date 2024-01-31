@@ -35,7 +35,7 @@ from langchain.prompts import (
 )
 
 print("Hi dff")
-file_path = "/Users/I311450/Library/CloudStorage/OneDrive-SAPSE/Desktop/Tasks/api_key.txt"
+file_path = "Tasks/api_key.txt"
 file_data = open(file_path, "r")
 api_key = file_data.readline()
 
